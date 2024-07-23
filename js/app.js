@@ -9,4 +9,10 @@ function alterarStatus(ref) {
         btn.textContent = 'Devolver';
     }
 
+    else {
+        imagem.classList.remove('dashboard__item__img--rented');
+        btn.classList.remove('dashboard__item__button--return');
+        btn.textContent = 'Alugar';
+    }
+
 }
